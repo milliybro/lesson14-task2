@@ -1,0 +1,89 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+.effect {
+   width: 600px;
+   height: 100px;
+   margin: 0 auto;
+   display: block;
+   position: relative;
+}
+
+.effect-line {
+   margin: 50% auto;
+   text-align: center;
+   height: 100px;
+}
+
+.line {
+   /* width: 5px;
+   height: 150px; */
+   position: relative;
+   text-align: center;
+   background-color: blueviolet;
+   background-color: aqua;
+   vertical-align: middle;
+   display: inline-block;
+   animation: effect 1s infinite ease-in-out;
+   margin-left: 20px;
+}
+@keyframes effect{
+   0%{
+      width: 15px;
+      height: 150px;
+      background-color: blueviolet;
+   }
+   50%{
+      height: 50px;
+      background-color: coral;
+   }
+   100%{
+      width: 15px;
+      height: 150px;
+   }
+}
+.line1{
+   animation-delay: 0.1s;
+}
+.line2{
+   animation-delay: 0.15s;
+}
+.line3{
+   animation-delay: 0.2s;
+}
+.line4{
+   animation-delay: 0.25s;
+}
+.line5{
+   animation-delay: 0.3s;
+}
+.line6{
+   animation-delay: 0.35s;
+}
+.line7{
+   animation-delay: 0.4s;
+}
+.line8{
+   animation-delay: 0.45s;
+}
+.line9{
+   animation-delay: 0.5s;
+}
+.line10{
+   animation-delay: 0.55s;
+}
+.line11{
+   animation-delay: 0.6s;
+}
+.line12{
+   animation-delay: 0.65s;
+}
